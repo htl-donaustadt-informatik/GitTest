@@ -5,7 +5,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-            Console.WriteLine("Creating the first commit!");
+            Console.WriteLine("Creating the first two commits!");
+            Console.WriteLine("Creating the 3rd commit!");
 
         }
     }
