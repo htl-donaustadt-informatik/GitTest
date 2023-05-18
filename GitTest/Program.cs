@@ -1,4 +1,6 @@
-﻿namespace GitTest
+﻿using System;
+
+namespace GitTest
 {
     internal class Program
     {
@@ -6,6 +8,8 @@
         {
             Console.WriteLine("Hello, World!");
             Console.WriteLine("Creating the first two commits!");
+            Console.WriteLine("Creating the first new commit using GitHub.com!");
+
             Console.WriteLine("Creating the 3rd commit!");
 
         }
