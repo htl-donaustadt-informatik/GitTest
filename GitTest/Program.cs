@@ -14,6 +14,7 @@ namespace GitTest
             Console.WriteLine("Creating a MySQL commit!");
 
             Console.WriteLine("Creating the 4th commit!");
+            Console.WriteLine("Creating the second new commit using GitHub.com!");
         }
     }
 }
