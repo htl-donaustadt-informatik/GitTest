@@ -6,8 +6,20 @@ using System.Threading.Tasks;
 
 namespace GitTest
 {
-    internal class MySQL
+    public class MySQL
     {
         // MySQL
+        public void OuterConnect(string connectionString) {
+
+            int outerNumber = 4;
+
+            void Connect(string connectionString)
+            {
+                Console.WriteLine(outerNumber);
+                Console.WriteLine(connectionString);
+            }
+
+            Connect("Hello");
+        }
     }
 }

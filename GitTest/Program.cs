@@ -15,6 +15,11 @@ namespace GitTest
 
             Console.WriteLine("Creating the 4th commit!");
             Console.WriteLine("Creating the second new commit using GitHub.com!");
+
+            string connectionString = "mySQL/myDatabaseName";
+           
+            MySQL mySQL = new MySQL();
+            mySQL.OuterConnect(connectionString);
         }
     }
 }
