@@ -15,8 +15,9 @@ namespace GitTest
 
             void Connect(string connectionString)
             {
-                Console.WriteLine(outerNumber);
+                
                 Console.WriteLine(connectionString);
+                Console.WriteLine("Creating new MySQL for the fifth commit.");
             }
 
             Connect("Hello");
